@@ -1,0 +1,43 @@
+PySide6>=6.5.0
+
+# 二维码
+qrcode[pil]>=7.4.2
+
+# 图片处理
+Pillow>=10.0.0
+
+# PDF处理
+PyPDF2>=3.0.0
+pdf2docx>=0.5.0
+pdf2image>=1.16.0
+
+# OCR（需要安装Tesseract OCR引擎）
+pytesseract>=0.3.10
+
+# 二维码扫描
+pyzbar>=0.1.9
+
+# 加密解密
+cryptography>=41.0.0
+
+# 系统工具
+psutil>=5.9.0
+
+# HTTP请求（用于趣味工具API调用）
+requests>=2.31.0
+
+# 图像处理（高级滤镜）
+Pillow>=10.0.0
+
+# 注意：
+# 1. pytesseract 需要安装 Tesseract OCR 引擎
+#    Windows: https://github.com/UB-Mannheim/tesseract/wiki
+#    安装后需将安装路径添加到PATH环境变量
+#
+# 2. pdf2image 需要安装 poppler
+#    Windows: https://github.com/oschwartz10612/poppler-windows
+#    下载后需将bin目录添加到PATH环境变量
+#
+# 3. pyzbar 需要安装 zbar
+#    Windows: https://github.com/NaturalHistoryMuseum/zbar
+#    下载并安装即可
